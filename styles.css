@@ -409,12 +409,13 @@ a:hover{
         margin: 0;
     }
     .hero-area {
+        margin-right: 10%;
         display: flex; 
         flex-direction: column-reverse;
     }
 
     .hero-text{
-        margin-bottom: 0;
+        margin-bottom: 40px;
     }
   
     .animated-text{

@@ -37,6 +37,7 @@ ul {
 
 ul.show{
     display: block;
+    
 }
 
 li {
@@ -341,6 +342,8 @@ a:hover{
         flex-direction: column-reverse;
         background-color: #2b2c38;
     }
+    /* ul.responsive{position: absolute;}
+    nav.responsive{position: absolute;} */
     
     .logo{
         display: none;
@@ -405,6 +408,9 @@ a:hover{
 
 @media only screen and (max-width:450px) {
     
+    ul.show{
+        position: absolute;
+    }
     *{
         margin: 0;
     }

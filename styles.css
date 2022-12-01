@@ -408,9 +408,7 @@ a:hover{
 
 @media only screen and (max-width:450px) {
     
-    ul.show{
-        position: absolute;
-    }
+    
     *{
         margin: 0;
     }

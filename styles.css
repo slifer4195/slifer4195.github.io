@@ -15,9 +15,7 @@ section {
     font-size: 40px;
 }
 
-.nav{
-    color: aqua;
-}
+
 
 footer {
     background-color: black;
@@ -542,6 +540,8 @@ a:hover{
     font-family: "Incosolata", Consolas, monospace;
     font-size: 1em;
     color: #4cc9d7;
+    margin:0;
+    padding:0;
 }
 .typewriter{
     position: relative;

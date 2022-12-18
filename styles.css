@@ -11,8 +11,12 @@ section {
 .hero {
     background-color: #1c1d25;
     height: 100vh;
-    color: white;
+    color: rgb(252, 227, 0);
     font-size: 40px;
+}
+
+.nav{
+    color: aqua;
 }
 
 footer {
@@ -405,6 +409,9 @@ a:hover{
 
 @media only screen and (max-width:450px) {
     
+    .helloWorld{
+        display: none;
+    }
     .topnav.responsive{position: absolute;}
     *{
         margin: 0;
@@ -527,5 +534,35 @@ a:hover{
 
     .button{
         font-size: 18px;
+    }
+}
+
+
+.helloWorld{
+    font-family: "Incosolata", Consolas, monospace;
+    font-size: 1em;
+    color: #4cc9d7;
+}
+.typewriter{
+    position: relative;
+}
+.typewriter::after{
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: white;
+    background-color: #1d1f20;
+    width: 100%;
+    animation: typing 3s steps(7) alternate infinite,
+                line 1s infinite;
+}
+@keyframes typing{
+    to{
+        width: 0%;
+    }
+}
+@keyframes line {
+    50%{
+        color: transparent;
     }
 }
